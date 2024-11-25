@@ -1,0 +1,127 @@
+{
+        "menu":[
+        {
+            "id":1,
+            "nombre":"Pizza pequena",
+            "precio":10,
+            "categoria":1
+        },
+        {
+            "id":2,
+            "nombre":"Pizza mediana",
+            "precio":12,
+            "categoria":1
+        },
+        {
+            "id":3,
+            "nombre":"Pizza grande",
+            "precio":20,
+            "categoria":1
+        },
+        {
+            "id":4,
+            "nombre":"Pie de Limon",
+            "precio":5,
+            "categoria":2
+        },
+        {
+            "id":5,
+            "nombre":"Pie de Parchita",
+            "precio":5,
+            "categoria":2
+        },
+        {
+            "id":6,
+            "nombre":"Torta de fresa",
+            "precio":5,
+            "categoria":2
+        },
+        {
+            "id":7,
+            "nombre":"Torta de chocolate",
+            "precio":5,
+            "categoria":2
+        },
+        {
+            "id":8,
+            "nombre":"Jugo de Naranja",
+            "precio":2,
+            "categoria":3
+        },
+        {
+            "id":9,
+            "nombre":"Juga de Fresa",
+            "precio":2,
+            "categoria":3
+        },
+        {
+            "id":10,
+            "nombre":"Combo 1",
+            "precio":6,
+            "categoria":4
+        },
+        {
+            "id":11,
+            "nombre":"Combo 2",
+            "precio":6,
+            "categoria":4
+        },
+        {
+            "id":12,
+            "nombre":"Combo 3",
+            "precio":8,
+            "categoria":4
+        },
+        {
+            "id":13,
+            "nombre":"Combo 4",
+            "precio":8,
+            "categoria":4
+        },
+        {
+            "id":14,
+            "nombre":"Latte Vainilla",
+            "precio":2,
+            "categoria":5
+        },
+        {
+            "id":15,
+            "nombre":"Capuchino",
+            "precio":2,
+            "categoria":5
+        },
+        {
+            "id":16,
+            "nombre":"Helado 1",
+            "precio":2,
+            "categoria":2
+        },
+        {
+            "id":17,
+            "nombre":"Helado 2",
+            "precio":2,
+            "categoria":2
+        },
+        {
+            "id":18,
+            "nombre":"Helado 3",
+            "precio":2,
+            "categoria":2
+        },
+        {
+            "id":19,
+            "nombre":"Helado 4",
+            "precio":2,
+            "categoria":2
+        },
+        {
+            "id":20,
+            "nombre":"Helado 5",
+            "precio":2,
+            "categoria":2
+        }
+    ],
+    "cliente":[
+
+    ]
+}
