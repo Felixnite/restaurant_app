@@ -7,6 +7,13 @@
     <title>Restaurant full stack</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <style>
+        .order-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px; /* This creates space between the cards */
+        }
+    </style>
 </head>
 <body>
 
@@ -15,8 +22,10 @@
     </header>
 
     <div class="d-flex mt-4 justify-content-center">
-        <button  data-bs-toggle="modal" data-bs-target="#formulario" type="button" class="btn btn-success">Nueva Orden</button>
+        <button data-bs-toggle="modal" data-bs-target="#formulario" type="button" class="btn btn-success" onclick="prepararNuevaOrden()">Nueva Orden</button>
     </div>
+    
+    
 
 
     <main id="menu" class="container bg-light mt-5 p-4 d-none">
@@ -27,7 +36,7 @@
 
     
     <section id="resumen" class="resumen bg-light container mt-5 p-4 d-none">
-        <h2 class="text-center my-4">Resumen De Pedido </h2>
+        <h2 class="text-center my-4 ">Resumen De Pedido </h2>
 
         <div class="contenido row">
             <p class="text-center">Añade los elementos del pedido</p>
